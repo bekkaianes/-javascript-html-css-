@@ -1,0 +1,11 @@
+
+
+color background blue : #001122 
+
+wave color :  color: #273f59;
+
+nav li color : white ;
+
+background our skills color : background-color: #273f5975; 
+
+
