@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+
+body{
+    margin: 0;
+    padding: 10px;
+    background-color:#f08080 ;
+    font-family: "Playwrite IT Moderna", serif;
+}
+
+
+@media (max-width : 500px) {
+    h1{
+        color: #c71585;
+    }
+
+    #btn{
+        background-color:  #730c4e;
+        outline: none;
+        border: none;
+        box-shadow: 1px 1px 10px  #730c4e ;
+        width: 160px;
+        height: 50px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+    #btn2{
+        background-color: #c91818;
+        outline: none;
+        border: none;
+        box-shadow: 1px 1px 10px #c91818 ;
+        width: 120px;
+        height: 40px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        font-weight: bolder;
+        border-radius: 5px;
+    }
+
+    .info{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .txt{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+
+    }
+
+    #info2{
+        display: none;
+    }
+
+    #info2 .txt{
+        height: 100%;
+
+    }
+    img{
+        border-radius:10px ;
+    }
+}
+
+h1{
+    color: #c71585;
+}
+
+#btn{
+    background-color:  #730c4e;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px  #730c4e ;
+    width: 160px;
+    height: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+#btn2{
+    background-color: #c91818;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 10px #c91818 ;
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.info{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+}
+
+#info2{
+    display: none;
+}
+
+#info2 .txt{
+    height: 100%;
+
+}
+img{
+    border-radius:10px ;
+}
+
+
