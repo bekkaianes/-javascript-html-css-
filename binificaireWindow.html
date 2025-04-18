@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';"> -->
+
+        
+    <title>المستفيدين</title>
+    <link rel="stylesheet" href="binificaire.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>تسجيل المستفيدين</h1>
+        <form action="">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="binificaireNom">:الاسم</label>
+                    <input id="binificaireNom" name="binificaireNom" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="binificairePrenom">:اللقب</label>
+                    <input id="binificairePrenom" name="binificairePrenom" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="binificaireAge">:العمر</label>
+                    <input id="binificaireAge" name="binificaireAge" type="number">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="binificaireId">ر-ب-و:</label>
+                    <input id="binificaireId" name="binificaireId" type="number">
+                </div>
+
+                <div class="form-group">
+                    <label for="binificaireTel">رقم الهاتف:</label>
+                    <input id="binificaireTel" name="binificaireTel" type="number">
+                </div>
+
+                <div class="form-group">
+                    <label for="binificaireJob">العمل:</label>
+                    <input id="binificaireJob" name="binificaireJob" type="text">
+                </div>
+                
+
+            </div>
+
+            <hr>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="binificaireBaladiya">البلدية:</label>
+                    <select id="binificaireBaladiya" name="binificaireBaladiya" type="text"></select>
+                </div>
+                <div class="form-group">
+                    <label for="organisationName">المؤسسة:</label>
+                    <select id="organisationName" name="organisationName"></select>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <h4>الحالة:</h4>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="binificairemEtat1"> متزوج/ة</label>
+                        <label><input type="checkbox" name="binificairemEtat2"> اعزب/ة</label>
+                        <label><input type="checkbox" name="binificairemEtat3"> مطلقة</label>
+                        <label><input type="checkbox" name="binificairemEtat4"> ارملة</label>
+                        <label><input type="checkbox" name="binificairemEtat5"> مريض/ة</label>
+                        <label><input type="checkbox" name="binificairemEtat6"> رجل</label>
+                        <label><input type="checkbox" name="binificairemEtat7"> امرأة</label>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="binificaireChild">عدد الاطفال الاقل 18:</label>
+                    <input id="binificaireChild" name="binificaireChild" type="number">
+                </div>
+
+                <div class="form-group">
+                    <label for="binificaireSickChild"> عدد الاطفال المرضى:</label>
+                    <input id="binificaireSickChild" name="binificaireSickChild" type="number">
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="binificairePartner">اسم الزوج/ة:</label>
+                    <input id="binificairePartner" name="binificairePartner" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="binificairePartnerId">ر-ب-و الزوج/ة:</label>
+                    <input id="binificairePartnerId" name="binificairePartnerId" type="number">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+                
+
+                <div class="form-group">
+                    <label for="binificaireAmount">الحساب:</label>
+                    <input id="binificaireAmount" value="" name="binificaireAmount" type="text" readonly>
+                </div>
+            </div>
+
+            <button type="submit" class="binificaireRegisteredBtn" name="binificaireRegisteredBtn">تسجيل</button>
+        </form>
+    </div>
+
+    
+<!-- <script src="binificaire.js"></script> -->
+ <script src="binificaireWinRendrer.js"></script>
+
+</body>
+
+</html>

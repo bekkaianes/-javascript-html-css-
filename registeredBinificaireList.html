@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>قائمة المسجلين</title>
+        <style>
+            body{
+                background-color: #f4f4f4ff;
+            }
+            table {
+                width: 100%;
+                border-collapse: collapse;
+                text-align: center;
+                font-family: Arial, sans-serif;
+                direction: rtl; /* Set text direction to Arabic */
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 10px;
+            }
+            th {
+                background-color: #e2e05c;
+            }
+            #btnRemoveBinificaire {
+                background-color: #286431;
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                cursor: pointer;
+                border-radius: 30%;
+            }
+            #btnRemoveBinificaire:hover {
+                
+                box-shadow: 1px 1px 1px #286431;
+            }
+
+            #confirmationBinificaires{
+                background-color: #286431;
+                color: white;
+                border: none;
+                padding: 5px 10px;
+                cursor: pointer;
+                font-size: 40px;
+                border-radius: 15px;
+                margin:40px;
+
+            }
+            #confirmationBinificaires:hover{
+                box-shadow: 1px 1px 10px #286431;
+            }
+            h1{
+                    font-size: 40px;
+                    text-align: center;
+                }
+        </style>
+        </head>
+        <body>
+            <h1>قائمة المسجلين</h1>
+        
+        
+            <button id="confirmationBinificaires" onclick="confirmationBinificaires()">تاكيد القائمة</button>
+    
+        <table id="BinInf"> </table>
+
+        
+        <!-- <script src="binificaire.js"> </script> -->
+         <script src="registeredRendrer.js"></script>
+
+</body>
+</html>

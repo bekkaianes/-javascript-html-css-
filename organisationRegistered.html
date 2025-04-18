@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="../binificaire/binificaire.css">
+    <title>تسجيل المؤسسات</title>
+    <style>
+        .container{
+            margin-top: 10%;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>تسجيل المؤسسات</h1>
+
+        <form action="">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="binificaireBaladiya">البلدية:</label>
+                    <select id="binificaireBaladiya" name="binificaireBaladiya" required></select>
+                </div>
+
+                <div class="form-group">
+                    <label for="organisationName">اسم المؤسسة:</label>
+                    <input type="text" id="organisationName" name="organisationName" >
+                </div>
+
+                <div class="form-group">
+                    <label for="organisationType"> نوع المؤسسة:</label>
+                    <select id="organisationType" name="organisationType">
+                        <option value="1">مسجد</option>
+                        <option value="2">جمعية</option>
+                        <option value="3">قرية</option>
+                        <option value="4">بلدية</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="responsableName">اسم العضو المسؤول:</label>
+                    <input id="responsableName" name="responsableName" type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="responsableTel">رقم الهاتف:</label>
+                    <input id="responsableTel" name="responsableTel" type="number">
+                </div>
+
+                <div class="form-group">
+                    <label for="responsableEmail">البريد الالكتروني:</label>
+                    <input id="responsableEmail" name="responsableEmail" type="text">
+                </div>
+        
+            </div>
+
+            <hr>
+
+            <button type="submit" class="organisationRegisteredBtn">تسجيل</button>
+        </form>
+    </div>
+<!-- <script src="organisation.js"></script> -->
+ <script src="organisationRegRendrer.js"></script>
+    
+</body>
+</html>
